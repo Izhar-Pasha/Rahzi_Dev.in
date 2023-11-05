@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO.COM</title>
+</head>
+<body>
+                        <!-- NAV-BAR -->
+    <div id="nav-bar">
+        
+            <div id="nav-container">
+                <a onclick="homepge()" href="#Home-Page">HOME</a>
+                <a onclick="aboutimg()" href="#About-Page">ABOUT</a>
+                <a onclick="mylog()"  href="#Skills-Page">SKILLS</a>
+                <a href="#Projects-Page">PROJECTS</a>
+                <a href="#Contact-Page">CONTACT</a>
+            </div>
+    </div>
+ 
+
+
+                    <!-- SIDE NAV-BAR -->
+
+    <button class="wrap-btn open-btn">
+        <i id="my-bar" class="fa-solid fa-bars-staggered"></i>
+    </button>
+                      
+
+    <div class="wrap wrap-black">
+        <div class="wrap wrap-white">
+            <button class="wrap-btn close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="list">
+               <li><a onclick="homepge()"  href="#Home-Page">HOME</a></li>
+               <li><a onclick="aboutimg()"  href="#About-Page">ABOUT</a></li>
+               <li><a onclick="mylog()"  href="#Skills-Page">SKILLS</a></li>
+               <li><a href="#Projects-Page">PROJECTS</a></li>
+               <li> <a href="#Contact-Page">CONTACT</a></li>
+            </ul>
+        </div>
+  </div>
+
+
+                      <!-- HOME PAGE -->
+
+    <div class="div div1" id="Home-Page">
+
+   
+        <div id="container-hm">
+
+            <div id="my-info" >
+                <i>Software_Developer</i>
+               <p id="Name">Izhar Pasha</p>
+                <p>Am a dedicated software developer
+                    with a strong programming knowledge and passionate about
+                    creating innovative solutions. </p>
+                    
+                    <div id="my-icons">
+                        <a href="https://www.linkedin.com/in/izharpasha"><i class="fa-brands fa-linkedin" id="linkedin">
+                            <span class="lnkdin">LINKEDIN</span>
+                        </i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-github" id="github">
+                            <span class="git">GITHUB</span>
+                        </i></a>
+                        <a href=""><i class="fa-solid fa-file" id="resume">
+                            <span class="rsme">RESUME</span>
+                        </i></a>
+                        
+                    </div>
+            </div>
+
+            <div id="profile-pic">
+                <div>
+                        <img src="Images/Profile-Pic.jpg" alt="Profile-picture">
+                </div>
+            </div>
+
+        </div>
+                   
+    </div>
+     <!-- TOGGLE -->
+
+     <div id="modechange">
+        <div id="toggle">
+            <button onclick=" toggle()"  id="toggle-btn"><i class="fa-solid fa-sun" id="day"></i><span><i class="fa-solid fa-moon" id="night" ></i></span> </button>
+        </div>
+</div>
+         
+                            <!-- ABOUT -->
+
+    <div class="div div2" id="About-Page">
+      
+        <div id="imge" >
+            <img src="Images/About-img.jpg" alt="about-image">
+        </div>
+        <h1>ABOUT ME</h1>
+        <div id="about-container">
+                 <p>I'm 24 years old software developer, with a strong focus on user interface design and development. Despite being a fresher in the field, I bring dedication and hard work to complete tasks efficiently, promising clean and compliant interfaces that adhere to the latest web standards.</p>
+
+                <p>I'm from Mechanical background, I entered the software development field because I've always had a deep-seated curiosity about how technology works and a strong interest in solving complex problems. From a young age, I was drawn to programming as a means of creating and innovating. I find the process of writing code and seeing it come to life incredibly satisfying.
+
+                Additionally, I was inspired by the vast potential of technology to make a positive impact on the world. Software development is a field that constantly evolves and offers opportunities to create solutions that can improve people's lives, enhance businesses, and even contribute to societal advancements. This sense of purpose and the dynamic nature of the industry motivated me to pursue a career in software development.
+                
+                I'm excited about the endless possibilities for learning and growth that software development offers, and I'm committed to making meaningful contributions to this ever-evolving field. </p>
+        </div>
+    </div>
+                           <!-- SKILLS -->
+
+    <div class="div div3" id="Skills-Page">
+            <h1>SKILLS</h1>
+            <div class="skill-box">
+
+                <div class="skill" id="log-html">
+                   <p><i class="fa-brands fa-html5"> </i></p> <span class="skill-desgn"><h2>HTML</h2> <h6>INTERMEDIATE</h6></span> 
+                </div>
+                <div class="skill" id="log-css">
+                    <p><i class="fa-brands fa-css3-alt"></i></p> <span class="skill-desgn"><h2>CSS</h2> <h6>INTERMEDIATE</h6></span> 
+                 </div>
+                 <div class="skill" id="log-java">
+                    <p><i class="fa-brands fa-square-js"></i></p> <span class="skill-desgn"><h2>&nbsp;JAVASCRIPT</h2> <h6>INTERMEDIATE</h6></span> 
+                 </div>
+                 <div class="skill" id="log-py">
+                    <p><i class="fa-brands fa-python"></i></p> <span class="skill-desgn"><h2>&nbsp;PYTHON</h2> <h6>BEGINNER</h6></span> 
+                 </div>
+                 <div class="skill" id="log-boot">
+                    <p><i class="fa-brands fa-bootstrap"></i></p> <span class="skill-desgn"><h2>&nbsp;BOOTSTRAP</h2> <h6>INTERMEDIATE</h6></span> 
+                 </div>
+                 <div class="skill" id="log-git">
+                    <p><i class="fa-brands fa-git-alt"></i></p> <span class="skill-desgn"><h2>GIT</h2> <h6>INTERMEDIATE</h6></span> 
+                 </div>
+                 <div class="skill" id="log-github">
+                    <p><i class="fa-brands fa-github"></i></p> <span class="skill-desgn"><h2>GITHUB</h2> <h6>INTERMEDIATE</h6></span> 
+                 </div>
+                 <div class="skill" id="log-github">
+                    <p><i class="fa-brands fa-react"></i></p> <span class="skill-desgn"><h2>REACT</h2> <h6>BEGINNER</h6></span> 
+                 </div>
+                
+
+            
+            </div>
+
+            <div >
+                
+            </div>
+
+            
+    </div>
+
+    <div class="div div4" id="Projects-Page">
+        <h1>PROJECTS</h1>
+
+     <div id="project-container">
+
+          <div class="projects" id="amazon">
+               <div class="click1">
+                <a href="https://izhar-pasha.github.io/Amazon_Clone/">AMAZON</a>
+                </div>
+             </div>
+
+             <div class="projects" id="Pro-Port">
+                <div class="click1">
+                    <a href="https://izhar-pasha.github.io/Project-Portfolio/">PROJECT - PORTFOLIO</a>
+                </div>
+            </div>
+
+            <div class="projects" id="Robort">
+                <div class="click1">
+                    <a href=" https://izhar-pasha.github.io/Ronot-Card-App/">ROBORT - CARD</a>
+                </div>
+            </div>
+
+            <div class="projects" id="Piano">
+                <div class="click1">
+                    <a href="https://izhar-pasha.github.io/Project-Piano/">PIANO - PROJECT</a>
+                </div>
+            </div>
+
+            <div class="projects" id="Website">
+                <div class="click1">
+                    <a href=" https://izhar-pasha.github.io/Personal-Website/">WEBSITE</a>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="div div5" id="Contact-Page">
+                <h1>CONTACT ME</h1>
+                <form action="https://formspree.io/f/mknlyzja" method="POST">
+                    <input type="name" name="name" id="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email"  required>
+                    <textarea name="Message" id="" cols="30" rows="10" id="textarea" placeholder="Type your Message Here..."  required></textarea>
+                    <button id="mybtn" type="submit">SUBMIT</button>
+                </form>
+
+            <div id="footer">
+
+                <p> &copy; 2023 All Rights Reserved</p> &nbsp; ||  &nbsp;
+                <span>Made With <i class="fa-solid fa-heart"></i> By Izhar Pasha</span>
+            
+            </div>
+        
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
