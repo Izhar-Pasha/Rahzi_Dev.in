@@ -51,3 +51,14 @@ function mylog() {
     // var element3 = document.querySelector("#log-css");
     // element3.classList.add("mylogo");
 }
+
+
+// CLEAR FORM
+const myform = document.querySelector("#myform");
+const mybtn = document.querySelector("#myreset");
+
+function resetform(){
+    var form = document.querySelector("#myform");
+    form.reset();
+}
+

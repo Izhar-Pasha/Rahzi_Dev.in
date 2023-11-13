@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>PORTFOLIO.COM</title>
+    <title>Rahzi_Dev.in</title>
+    <link rel="icon" href="Images/Profile-removebg-preview.png" type="image/x-icon" class="icons">
+    <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon" class="icons">
+
 </head>
 <body>
                         <!-- NAV-BAR -->
@@ -67,7 +70,8 @@
                         <a href="https://github.com/"><i class="fa-brands fa-github" id="github">
                             <span class="git">GITHUB</span>
                         </i></a>
-                        <a href=""><i class="fa-solid fa-file" id="resume">
+
+                        <a href="" target="_blank"><i class="fa-solid fa-file" id="resume">
                             <span class="rsme">RESUME</span>
                         </i></a>
                         
@@ -76,7 +80,7 @@
 
             <div id="profile-pic">
                 <div>
-                        <img src="Images/Profile-Pic.jpg" alt="Profile-picture">
+                        <img src="Images/Profile-removebg-preview.png" alt="Profile-picture">
                 </div>
             </div>
 
@@ -96,7 +100,7 @@
     <div class="div div2" id="About-Page">
       
         <div id="imge" >
-            <img src="Images/About-img.jpg" alt="about-image">
+            <img src="Images/About.png"  alt="about-image">
         </div>
         <h1>ABOUT ME</h1>
         <div id="about-container">
@@ -113,8 +117,9 @@
 
     <div class="div div3" id="Skills-Page">
             <h1>SKILLS</h1>
+            
             <div class="skill-box">
-
+               
                 <div class="skill" id="log-html">
                    <p><i class="fa-brands fa-html5"> </i></p> <span class="skill-desgn"><h2>HTML</h2> <h6>INTERMEDIATE</h6></span> 
                 </div>
@@ -133,19 +138,20 @@
                  <div class="skill" id="log-git">
                     <p><i class="fa-brands fa-git-alt"></i></p> <span class="skill-desgn"><h2>GIT</h2> <h6>INTERMEDIATE</h6></span> 
                  </div>
+               
                  <div class="skill" id="log-github">
                     <p><i class="fa-brands fa-github"></i></p> <span class="skill-desgn"><h2>GITHUB</h2> <h6>INTERMEDIATE</h6></span> 
                  </div>
                  <div class="skill" id="log-github">
                     <p><i class="fa-brands fa-react"></i></p> <span class="skill-desgn"><h2>REACT</h2> <h6>BEGINNER</h6></span> 
                  </div>
-                
 
             
-            </div>
 
+            </div>
+    
             <div >
-                
+          
             </div>
 
             
@@ -190,11 +196,11 @@
 
     <div class="div div5" id="Contact-Page">
                 <h1>CONTACT ME</h1>
-                <form action="https://formspree.io/f/mknlyzja" method="POST">
+                <form action="https://formspree.io/f/mknlyzja" method="POST" id="myfrom">
                     <input type="name" name="name" id="name" placeholder="Enter Your Name" required>
                     <input type="email" name="email" id="email" placeholder="Enter Your Email"  required>
                     <textarea name="Message" id="" cols="30" rows="10" id="textarea" placeholder="Type your Message Here..."  required></textarea>
-                    <button id="mybtn" type="submit">SUBMIT</button>
+                    <button id="mybtn" type="submit"   onclick="resetform()">SUBMIT</button>
                 </form>
 
             <div id="footer">

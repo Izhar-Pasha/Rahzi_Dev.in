@@ -11,6 +11,7 @@ body{
 
    
 }
+
         /* TOGGLE MODE */
 #modechange{
     position: sticky;
@@ -88,9 +89,9 @@ body{
         font-weight: 400;
         color: #ffffff;
      }
-     #profile-pic div{
+     /* #profile-pic div img{
         background-color: #fff;
-     }
+     } */
 
 
             /* SIDE-NAV */
@@ -104,8 +105,16 @@ body{
                 color: #ffffff;
             }
             /* ABOUT */
-         #imge{
-                background-color: #ffffff;
+            #imge{
+                background-color:   rgba(227, 230, 230, 0.3)
+            }
+         #imge img{
+            height: 300px;
+            width: 280px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
             }
         .div2 h1{
             color: #ffffff;
@@ -221,7 +230,7 @@ body{
             }
             .wrap-black{
                 background-color: #0a635e;
-                width: 30%;
+                width: 20%;
                 max-width: 480px;
                 transition-delay: 0.2s ;
             }
@@ -289,15 +298,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    /* background-color: #0a635e; */
     border-radius: 50%;
     padding: 5px;
 
 }
 #profile-pic img{
-    height: 400px;
-    width: 400px;
+    height: 480px;
+    width: 450px;
     border-radius: 50%;
+    border: 5px 19px 10px 10px skyblue solid;
+    
+    
  
 }
 #my-info{
@@ -464,11 +476,15 @@ body{
     margin-bottom: 8px;
 }
 #imge {
-    background-color: black;
-    border-radius: 50%;
-    margin-top: 80px;
-    margin-bottom: 8px;
-    padding: 5px;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-color:   rgba(11, 12, 12, 0.3)
 }
 
 
@@ -476,8 +492,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 230px;
-    width: 230px;
+    height: 300px;
+    width: 280px;
     border-radius: 50%;  
 }
 #about-container{
@@ -521,7 +537,7 @@ body{
 }
 .div3 h1{
     margin-top: 10px;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     text-decoration: none;
@@ -756,6 +772,7 @@ form{
     border-radius: 5px;
 
 }
+
 textarea{
     height: 220px;
     margin: 10px;
@@ -789,7 +806,6 @@ textarea, #name, #email:focus{
     background-color: chocolate;
 
 }
-
 /* FOOTER */
 
 #footer{
@@ -936,6 +952,7 @@ textarea, #name, #email:focus{
         width: 100vw;
     }
     .div3 h1{
+        font-size: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -943,20 +960,20 @@ textarea, #name, #email:focus{
 
     }
     .skill-box{
-        height: 90%;
+        height: 100vh;
         display: flex;
         flex-wrap:  wrap;
         align-content: center;
         justify-content: center;
     }
     .skill{
-     height: 80px;
-     width: 80px;
+     height: 20px;
+     width: 60px;
     }
     .skill i{
-        height: 50px;
-        width: 50px;
-        font-size: 1.5rem;
+        height: 40px;
+        width: 40px;
+        font-size: 1.3rem;
         background-color: rgb(14, 12, 12);
         background-size: 100px;
         display: flexbox;
@@ -965,7 +982,6 @@ textarea, #name, #email:focus{
         justify-content: center;
         border-radius: 50%;
         color: brown;
-        margin-bottom: 30px;
     }
     .skill-desgn h2{
         font-size: 0.5rem;
@@ -1051,9 +1067,9 @@ textarea, #name, #email:focus{
 
 #name, #email{
     color: black;
-    width: 50%;
-    margin: 7px;
-    padding:  7px;
+    width: 80%;
+    margin: 8px;
+    padding:  8px;
     background-color: #ffffff;
     font-size: 0.6rem;
     border: 2px solid black;
@@ -1063,8 +1079,8 @@ textarea, #name, #email:focus{
 textarea{
     height: 140px;
     margin: 10px;
-    padding: 5px;
-    width: 50%;
+    padding: 8px;
+    width: 80%;
     color: black;
     background-color: #ffffff;
     font-size: 0.6rem;
