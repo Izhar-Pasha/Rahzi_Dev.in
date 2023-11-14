@@ -894,7 +894,6 @@ textarea, #name, #email:focus{
     #my-info {
         height: 45%;
         width: 100vw;
-        background-color: red;
     }
     #profile-pic {
         height: 50%;
