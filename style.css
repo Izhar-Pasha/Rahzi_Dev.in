@@ -890,14 +890,15 @@ textarea, #name, #email:focus{
         justify-content: center;
     }
     #my-info {
-        height: 65%;
-        width: 100%;
+        height: 45%;
+        width: 100vw;
+        background-color: red;
     }
     #profile-pic {
-        height: 30%;
+        height: 50%;
+     
     }
     #my-info i{
-        margin-top: 10px;
         font-size: 1rem;
     }
     #my-info p{
@@ -908,8 +909,9 @@ textarea, #name, #email:focus{
         font-size: 1.8rem;
     }
     #profile-pic img{
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 330px;
+        
     }
     #my-icons{
         display: flex;
@@ -938,13 +940,12 @@ textarea, #name, #email:focus{
         font-size: 0.6rem;
         line-height: 14px;
         text-shadow: none;
-     
-
+    
     }
 
     #imge img{
-        height: 150px;
-        width: 150px;
+        height: 300px;
+        width: 280px;
     }
     /* SKILLS */
     .div3{
