@@ -56,9 +56,15 @@ function mylog() {
 // CLEAR FORM
 const myform = document.querySelector("#myform");
 const mybtn = document.querySelector("#myreset");
+const myname = document.querySelector("#name");
+const email = document.querySelector("#email");
+const textarea = document.querySelector("#textarea");
 
-function resetform(){
-    var form = document.querySelector("#myform");
-    form.reset();
-}
+mybtn.addEventListener("click", ()=>{
+    return(myname.value="",email.value="",textarea.value="");
+    // return(email.value="");
+    // return(textarea.value="");
+})
+
+
 

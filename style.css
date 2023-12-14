@@ -307,8 +307,7 @@ body{
     width: 450px;
     border-radius: 50%;
     border: 5px 19px 10px 10px skyblue solid;
-    
-    
+    filter: drop-shadow(15px 10px 10px #000000);
  
 }
 #my-info{
@@ -494,6 +493,7 @@ body{
     height: 300px;
     width: 280px;
     border-radius: 50%;  
+    filter: drop-shadow(10px 8px 6px #030000);
 }
 #about-container{
     height: 30%;
@@ -569,7 +569,7 @@ body{
     color: rgb(10, 10, 10);
 }
 .skill{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 80px;
     margin-bottom: 50px; 
     position: static;
@@ -649,52 +649,63 @@ body{
 }
 
 
-#amazon{
-    background-image: url(Images/Project1.png);
+#Portfolio{
+    width: 380px;
+    background-image: url(Images/Portfolio.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#Pro-Port{
-    background-image: url(Images/Project2.png);
+#Car-Carnation{
+    width: 380px;
+    background-image: url(Images/Car-Carnation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#Robort{
-    background-image: url(Images/Project3.png);
+#Quote-Generator{
+    width: 380px;
+    background-image: url(Images/Quote-Gen.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#Piano{
-    background-image: url(Images/Project4.png);
-    background-size: cover;
+#Weather-App{
+    height: 250px;
+    width: 240px;
+    background-image: url(Images/Weather-App.png);
+    background-size: 250px;
     background-repeat: no-repeat;
 }
-#Website{
-    background-image: url(Images/Project5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+#Text-Speaker{
+    height: 250px;
+    width: 160px;
+    background-image: url(Images/Text-Speak.jpg);
+    background-size: contain;
+    background-repeat: repeat;
 }
 .click1{
     height: 160px;
     width: 100%;
-    background-color: rgba(43, 20, 20, 0.9);
+    background-color: rgba(53, 24, 24, 0.5);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     visibility: hidden;
-
-
+}
+#app{
+    height: 230px;
+}
+#text{
+    height: 230px;
 }
 .click1 a{
     text-decoration: none;
-    font-size: 1.5rem;
-    color: white;
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-weight: 800;
 
 }
 .click1 a:hover{
-    font-size: 1.6rem;
+    font-size: 1.4em;
     text-decoration: underline;
 }
 .projects:hover .click1{
@@ -892,12 +903,12 @@ textarea, #name, #email:focus{
         justify-content: center;
     }
     #my-info {
-        height: 45%;
-        width: 100vw;
-        background-color: red;
+        height: 35%;
+        width: 100%;
     }
     #profile-pic {
-        height: 50%;
+        height: 40%;
+        filter: drop-shadow(15px 10px 10px #000000);
      
     }
     #my-info i{
@@ -959,27 +970,29 @@ textarea, #name, #email:focus{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 30%;
-
+        height: 20%;
     }
     .skill-box{
-        height: 100vh;
         display: flex;
         flex-wrap:  wrap;
         align-content: center;
-        justify-content: center;
+        justify-content: space-evenly;
+      
     }
     .skill{
      height: 20px;
      width: 60px;
+     margin: 80px 50px 50px 60px;
+     display: flex;
+     justify-content: space-around;
     }
     .skill i{
         height: 40px;
         width: 40px;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         background-color: rgb(14, 12, 12);
         background-size: 100px;
-        display: flexbox;
+        display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -987,10 +1000,10 @@ textarea, #name, #email:focus{
         color: brown;
     }
     .skill-desgn h2{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .skill-desgn h6{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
     /* PROJECTS */
@@ -1014,22 +1027,54 @@ textarea, #name, #email:focus{
 #project-container{
     height: 100%;
     width: 100%;
+ 
 }
 .projects{
-    height: 80px;
-    width: 50%;
+    height: 110px;
+    width: 100px;
     display: inline-block;
     align-items: center;
     justify-content: space-evenly;
     margin: 20px;
-    margin-left: 100px;
     padding: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px black solid;
     box-shadow: 1px 1px 5px 1px  rgb(14, 18, 19);
     background-size: cover;
-    
+}
+
+#Portfolio{
+    width: 255px;
+    background-image: url(Images/Portfolio.png);
+    background-size: 255px;
+    background-repeat: no-repeat;
+}
+#Car-Carnation{
+    width: 255px;
+    background-image: url(Images/Car-Carnation.jpg);
+    background-size: 255px;
+    background-repeat: no-repeat;
+}
+#Quote-Generator{
+    width: 255px;
+    background-image: url(Images/Quote-Gen.png);
+    background-size: 255px;
+    background-repeat: no-repeat;
+}
+#Weather-App{
+    height: 200px;
+    width: 200px;
+    background-image: url(Images/Weather-App.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+#Text-Speaker{
+    height: 200px;
+    width: 130px;
+    background-image: url(Images/Text-Speak.jpg);
+    background-size: contain;
+    background-repeat: repeat;
 }
 .click1{
     height: 60px;
@@ -1041,6 +1086,12 @@ textarea, #name, #email:focus{
     align-items: center;
     position: relative;
     visibility: hidden;
+}
+#app{
+    height: 180px;
+}
+#text{
+    height: 180px;
 }
 .click1 a{
 
@@ -1060,12 +1111,14 @@ textarea, #name, #email:focus{
     height: 500px;
     margin-bottom: 5px;
     margin-top: 10px;
+    background-color: red;
 }
 .div5 h1{
     font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center; 
+    background-color: red;
 }
 
 #name, #email{
@@ -1138,7 +1191,7 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: transparent;
     border-radius: 50%;
     padding: 5px;
 
