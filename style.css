@@ -904,6 +904,7 @@ textarea, #name, #email:focus{
     }
     #my-info {
 <<<<<<< HEAD
+<<<<<<< HEAD
         height: 35%;
         width: 100%;
 =======
@@ -914,6 +915,13 @@ textarea, #name, #email:focus{
     #profile-pic {
         height: 40%;
         filter: drop-shadow(15px 10px 10px #000000);
+=======
+        height: 45%;
+        width: 100vw;
+    }
+    #profile-pic {
+        height: 50%;
+>>>>>>> 62be326bc717b1037861ab7ae77bfec1f05aa9e8
      
     }
     #my-info i{
