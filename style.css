@@ -903,25 +903,12 @@ textarea, #name, #email:focus{
         justify-content: center;
     }
     #my-info {
-<<<<<<< HEAD
-<<<<<<< HEAD
         height: 35%;
         width: 100%;
-=======
-        height: 45%;
-        width: 100vw;
->>>>>>> a289500a32540bf596635d8cc14420120294663d
     }
     #profile-pic {
         height: 40%;
         filter: drop-shadow(15px 10px 10px #000000);
-=======
-        height: 45%;
-        width: 100vw;
-    }
-    #profile-pic {
-        height: 50%;
->>>>>>> 62be326bc717b1037861ab7ae77bfec1f05aa9e8
      
     }
     #my-info i{
