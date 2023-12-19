@@ -917,7 +917,7 @@ textarea, #name, #email:focus{
         width: 80%;
     }
     #my-info  #Name{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     #profile-pic img{
         height: 350px;
@@ -943,7 +943,7 @@ textarea, #name, #email:focus{
     /* ABOUT */
 
     .div2 h1{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     
     #about-container p{
@@ -965,6 +965,7 @@ textarea, #name, #email:focus{
     }
     .div3 h1{
         font-size: 3rem;
+        margin-bottom: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -978,9 +979,10 @@ textarea, #name, #email:focus{
     .skill{
      height: 20px;
      width: 60px;
-     margin: 80px 60px 120px 50px;
+     margin: 20px 40px 150px 40px;
      display: flex;
      justify-content: space-around;
+     
     }
     .skill i{
         height: 60px;
@@ -1014,7 +1016,7 @@ textarea, #name, #email:focus{
     
 .div4 h1{
     height: 15%;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     display: flex;
     align-items: center;
@@ -1109,7 +1111,7 @@ textarea, #name, #email:focus{
     margin-top: 10px;
 }
 .div5 h1{
-    font-size: 1rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: center; 
