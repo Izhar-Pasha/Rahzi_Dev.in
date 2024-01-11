@@ -999,7 +999,7 @@ textarea,
     }
 
     /* HOME-PAGE */
-    .div1{
+ .div1{
         height: 100vh;
     }
     #container-hm {
@@ -1011,19 +1011,17 @@ textarea,
     }
 
     #my-info {
-        height: 45%;
+        height: 85%;
         width: 100%;
     }
 
     #profile-pic {
-        height: 60%;
-        margin-left: 20px;
-        filter: drop-shadow(15px 10px 10px #000000);
+        height: 100%;   
+        filter: drop-shadow(15px 20px 20px #000000);
     }
 
     #my-info i {
-        font-size: 1rem;
-        margin-top: 70px;
+        font-size: 1.5rem;
     }
 
     #my-info p {
@@ -1034,12 +1032,12 @@ textarea,
 
     #my-info #Name {
         font-size: 2.5rem;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     #profile-pic img {
-        height: 350px;
-        width: 335px;
+        height: 450px;
+        width: 435px;
     }
 
     #my-icons {
@@ -1053,7 +1051,7 @@ textarea,
         font-size: 1rem;
         gap: 20px;
         padding: 10px;
-        margin-top: 20px;
+        margin-top: 40px;
 
     }
 
